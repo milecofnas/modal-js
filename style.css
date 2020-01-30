@@ -1,0 +1,59 @@
+#myModal {
+    width: 600px;
+    height: 400px;
+    background-color: whitesmoke;
+    position: fixed;
+    top: 50px;
+    left: 300px;
+    box-shadow:0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    padding: 30px;
+}
+.imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#myModal img {
+    width: 80%;
+    height: auto;    
+    margin-top: -10px;
+}
+
+.titulo {
+    font-family: monospace;
+    font-size: 35px;
+    color: #312d2d;
+    text-align: center;
+    margin-top: -10px;
+}
+
+#cerrarModal {
+    position: absolute;
+    top: 30px;
+    right: 25px;
+}
+
+.nomostrar {
+    display: none;
+}
+#container {
+    display: flex;
+}
+.card {
+    width: 250px;
+    margin: 35px;
+    padding-bottom: 25px;
+    border: 1px solid black;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card .desc {
+    font-size: 20px;
+    font-family: monospace;
+    text-align: center;
+}
